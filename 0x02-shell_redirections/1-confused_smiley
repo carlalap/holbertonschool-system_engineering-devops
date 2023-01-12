@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "(\u00D4o)"
+printf "\"(Ôo)'"
