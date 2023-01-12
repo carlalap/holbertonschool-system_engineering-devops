@@ -1,3 +1,2 @@
 #!/bin/bash
 chmod -R u=rwX,g=rX,o= .
-
