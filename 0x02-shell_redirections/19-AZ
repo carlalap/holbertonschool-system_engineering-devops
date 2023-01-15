@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'Ze' < /tmp/0x02
+tr 'Ac' 'Ze'
