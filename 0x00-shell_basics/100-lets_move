@@ -1,2 +1,2 @@
 #!/bin/bash
-move '^./[A-Z]]*' -exec /tmp/u
+find . -name '[A-Z]*' -exec mv -t ~/tmp/u {} +
