@@ -1,2 +1,2 @@
 #!/bin/bash
-move .*/* -name '[A-Z]]*' /tmp/u
+move .*/* -name '[A-Z]]*' -exec /tmp/u
