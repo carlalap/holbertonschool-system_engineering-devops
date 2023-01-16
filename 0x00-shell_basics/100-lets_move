@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '[[:upper:]]*' | mv -t
+find . -name '[[:upper:]]*' | mv -t /tmp/u
