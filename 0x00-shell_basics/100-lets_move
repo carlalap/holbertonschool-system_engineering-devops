@@ -1,2 +1,2 @@
 #!/bin/bash
-find /tmp/sym -name "[A-Z]*" -exec mv {} /tmp/u +
+find -name "[A-Z]*" /tmp/sym -exec mv {} /tmp/u/ +
