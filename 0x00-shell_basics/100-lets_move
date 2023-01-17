@@ -1,2 +1,2 @@
 #!/bin/bash
-move / -type f -name "[A-Z]*" /tmp/u
+find / -name "[A-Z]*" | xargs -I {} mv {} /tmp/u
