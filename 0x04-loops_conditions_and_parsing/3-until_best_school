@@ -2,7 +2,7 @@
 #This script displays Best School 10 times using UNTIL function
 
 count=1
-until [ $count == 10 ]
+until ((count == 10)) 
 do 
 echo "Best School"
 ((count++))
