@@ -2,31 +2,35 @@
 #Write a Bash script that gives you information about the school file.
 
 
-i=1
- for i=1; i<=100; i++
+i="$1"
+
+for ((i=1; i<=100; i++));
 
     do
 #number divisible by 3 and 5 will
 #'FizzBuzz' in place of the number
       
-	if (i%15 == 0)       
+        if [ $((i%15)) == 0 ];       
         then         
-	echo ("FizzBuzz\n");   
+	printf "FizzBuzz \n";   
          
         #number divisible by 3? print 'Fizz'
         #in place of the number
         
-	elif ((i%3) == 0)   
-        echo("Fizz\n");                
+        elif [ $((i%3)) == 0 ] ;  
+	then
+	printf " Fizz \n ";                
          
         ##number divisible by 5, print 'Buzz' 
         ##in place of the number
         
-	elif ((i%5) == 0)                      
-        echo ("Buzz\n");                
+        elif [ $((i%5)) == 0 ];                    
+	then
+	printf " Buzz \n ";                
      
-        else // print the number           
-        echo ("%d\n", i);                
+	#print the number
+        else           
+        printf i;                
         fi 
 
 done
