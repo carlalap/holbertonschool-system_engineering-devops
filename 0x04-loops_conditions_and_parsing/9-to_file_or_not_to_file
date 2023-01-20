@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Script to check the status of a file
+
+# Take the file name as input
+
+echo "Enter a file name: "
+read file
+
+# Check if the file exists
+if [ -e "$file" ]; then
+  echo "$school file exists"
+else
+  echo "$school file does not exist"
+  exit 1
+fi
+
+# Check if the file is empty
+
+if [ -s "$file" ]; then
+  echo "$school file is not empty"
+else
+  echo "$school file is empty"
+fi
+
+# Check if the file is a regular file
+if [ -f "$file" ]; then
+  echo "$school is a regular file"
+else
+  echo "$ "
+fi
