@@ -4,7 +4,7 @@
 
 trap "I am invincible!!!" SIGTERM
 
-while true
+for (( ;  ;  ))
 do
     echo "To infinity and beyond"
     sleep 2
