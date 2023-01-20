@@ -3,7 +3,7 @@
 
 
 i=1
- for (i=1; i<=100; i++)
+ for i=1; i<=100; i++
 
     do
 #number divisible by 3 and 5 will
