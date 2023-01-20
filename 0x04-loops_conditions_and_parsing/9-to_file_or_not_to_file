@@ -3,8 +3,7 @@
 
 # Take the file name as input
 
-echo "Enter a file name: "
-read file
+file="school"
 
 # Check if the file exists
 if [ -e "$file" ]; then
