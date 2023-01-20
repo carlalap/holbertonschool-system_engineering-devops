@@ -12,21 +12,21 @@ for ((i=1; i<=100; i++));
       
         if [ $((i%15)) == 0 ];       
         then         
-	printf "FizzBuzz \n";   
+	echo " FizzBuzz ";   
          
         #number divisible by 3? print 'Fizz'
         #in place of the number
         
         elif [ $((i%3)) == 0 ] ;  
 	then
-	printf " Fizz \n ";                
+	echo " Fizz ";                
          
         ##number divisible by 5, print 'Buzz' 
         ##in place of the number
         
         elif [ $((i%5)) == 0 ];                    
 	then
-	printf " Buzz \n ";                
+	echo " Buzz ";                
      
 	#print the number
         else           
