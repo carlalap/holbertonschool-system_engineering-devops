@@ -2,5 +2,8 @@
 #Write a Bash script that kills the process 7-highlander.
 
 
-pkill -9 -f ./7-highlander
+#pkill -9 -f ./7-highlander
+pid=$(pgrep -f "7-highlander")
 
+# Kill the 7-highlander process
+kill -9 -f $pid
